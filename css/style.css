@@ -567,7 +567,8 @@ body {
         padding-block: 30px;
     }
     .lab h2 {
-        max-width: 100%;
+        max-width: 200px;
+        margin: auto;
        
     }
     .lab h3 {
@@ -616,7 +617,8 @@ body {
         max-width: 100%;
     }
     .game a {
-        max-width: 100%;
+        max-width: 100px;
+        margin-inline: auto;
         font-size: 10px;
     }
     /* ---------start labtop---------- */
@@ -710,7 +712,7 @@ body {
 
     .lab h3 {
         max-width: 100%;
-        font-size: 48px;
+        font-size: 47px;
         margin: 0;
     }
 
