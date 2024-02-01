@@ -576,6 +576,7 @@ body {
     }
     .lab a {
     max-width: 100%;
+    text-align: center;
     }
     /* -------- end lab------ */
 
