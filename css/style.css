@@ -712,8 +712,9 @@ body {
 
     .lab h3 {
         max-width: 100%;
-        font-size: 47px;
-        margin: 0;
+        font-size: 40px;
+        margin-block:10px ;
+
     }
 
     /* end lab */
