@@ -564,8 +564,6 @@ body {
     /* -------- start lab------ */
     .lab {
         grid-area: 1/1/2/5;
-
-        /* order: -1; */
         padding-block: 30px;
     }
 
@@ -592,7 +590,7 @@ body {
     }
 
     .disc .box-top .back-layer {
-        width: 80%;
+        width: 95%;
     }
 
     .game {
@@ -622,11 +620,13 @@ body {
     .bird {
         grid-area: 5/1/6/3;
         padding-block: 60px;
+        padding-inline: 20px;
     }
 
     .bird .back-layer {
         padding: 100px 0;
-        height: 100%;
+        height: 90%;
+        width: 85%;
     }
 
     .popular {
