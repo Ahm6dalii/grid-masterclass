@@ -566,13 +566,17 @@ body {
         grid-area: 1/1/2/5;
         padding-block: 30px;
     }
+    .lab h3 {
+        max-width: 100%;
+    }
 
     .lab h3 {
         max-width: 80%;
         font-size: 35px;
-
     }
-
+    .lab a {
+    max-width: 100%;
+    }
     /* -------- end lab------ */
 
     .keybord {
