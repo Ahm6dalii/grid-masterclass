@@ -466,7 +466,7 @@ body {
     margin-block: 8px;
     font-size: 25px;
     line-height: 28px;
-    
+
 }
 
 /* -------- end bird ------ */
@@ -566,41 +566,48 @@ body {
         grid-area: 1/1/2/5;
         padding-block: 30px;
     }
+
     .lab h2 {
         max-width: 200px;
         margin: auto;
-       
+
     }
+
     .lab h3 {
         max-width: 50%;
         font-size: 35px;
     }
+
     .lab a {
-       max-width: 100px;
+        max-width: 100px;
         margin: auto;
     }
+
     /* -------- end lab------ */
 
     .keybord {
         grid-area: 3/1/4/3;
     }
+    /* -------start keyboard---- */
     .keybord h3 {
         width: 90%;
         margin-bottom: 20px;
         font-size: 35px;
     }
+
     .keybord a {
-        width:100% ;
+        width: 100%;
         text-align: center;
         font-size: 10px;
     }
-    
+    /* -------end keyboard---- */
     .screen {
         grid-area: 4/1/5/5;
         padding-block: 50px;
 
     }
 
+    /* -------start disc------ */
     .disc {
         grid-area: 5/3/7/5;
     }
@@ -609,18 +616,26 @@ body {
         width: 95%;
     }
 
+    /* -------end disc------ */
+
+    /* ---------start game------- */
     .game {
         grid-area: 3/3/4/5;
         padding-block: 20px;
     }
+
     .game h3 {
         max-width: 100%;
     }
+
     .game a {
         max-width: 100px;
         margin-inline: auto;
         font-size: 10px;
     }
+
+    /* ---------end game------- */
+
     /* ---------start labtop---------- */
     .labtop {
         grid-area: 6/1/7/3;
@@ -640,7 +655,7 @@ body {
     }
 
     /* ---------end labtop---------- */
-
+    /*---------- start bird---------- */
     .bird {
         grid-area: 5/1/6/3;
         padding-block: 60px;
@@ -653,10 +668,13 @@ body {
         width: 85%;
     }
 
+    /*---------- end bird ---------*/
+    /* ----------start popular---------- */
     .popular {
         padding-block: 30px;
         grid-area: 7/1/8/5;
     }
+
     .popular .title {
         width: 70px;
     }
@@ -665,6 +683,8 @@ body {
         font-size: 20px;
         max-width: 18rem;
     }
+
+    /*---------- end popular---------- */
 
     .tv {
         grid-area: 8/1/9/5;
@@ -678,7 +698,7 @@ body {
         grid-template-columns: auto;
     }
 
-    /* start iPhone-6 */
+    /*------- start iPhone-6--------- */
     .iPhone-6 {
         grid-area: 2/1/3/5;
         flex-direction: column;
@@ -702,9 +722,9 @@ body {
         width: 80%;
     }
 
-    /* end iPhone-6 */
+    /*------- end iPhone-6--------- */
 
-    /* start lab */
+    /*------- start lab ---------*/
     .lab {
         grid-area: 1/1/2/5;
         padding-block: 30px;
@@ -713,20 +733,20 @@ body {
     .lab h3 {
         max-width: 100%;
         font-size: 40px;
-        margin-block:10px ;
+        margin-block: 10px;
 
     }
 
-    /* end lab */
+    /* -------end lab--------- */
 
-    /* start keyboard */
+    /* ---------start keyboard---------- */
     .keybord {
         grid-area: 3/1/4/5;
     }
 
-    /* end keyboard */
+    /* ---------end keyboard --------*/
 
-    /* start game */
+    /* ---------start game---------- */
     .game {
         grid-area: 4/1/5/5;
         padding-block: 40px;
@@ -737,9 +757,9 @@ body {
         max-width: none;
     }
 
-    /* end game */
+    /* ---------end game---------- */
 
-    /* start screen */
+    /* ---------start screen---------- */
     .screen {
         grid-area: 5/1/6/5;
         flex-direction: column;
@@ -764,9 +784,9 @@ body {
         width: 100%;
     }
 
-    /* end screen */
+    /* -------end screen------- */
 
-    /* start bird */
+    /* -------start bird------- */
     .bird {
         grid-area: 6/1/7/5;
         padding: 0px;
@@ -779,7 +799,7 @@ body {
         padding: 70px 0px;
     }
 
-    /* end bird */
+    /* -------end bird------- */
 
     .labtop {
         grid-area: 7/1/8/5;
@@ -794,7 +814,7 @@ body {
         grid-area: 10/1/11/5;
     }
 
-    /*start tv*/
+    /*-------start tv---------*/
     .tv {
         grid-area: 11/1/12/5;
         flex-direction: column;
@@ -815,6 +835,6 @@ body {
         text-align: center;
     }
 
-    /*end tv*/
+    /*-------end tv---------*/
 
 }
