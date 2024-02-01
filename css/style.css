@@ -575,8 +575,8 @@ body {
         font-size: 35px;
     }
     .lab a {
-    max-width: 100%;
-    text-align: center;
+        width: 70px;
+        margin: auto;
     }
     /* -------- end lab------ */
 
