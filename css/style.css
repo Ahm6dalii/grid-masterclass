@@ -583,6 +583,7 @@ body {
 
     .screen {
         grid-area: 4/1/5/5;
+        padding-block: 50px;
 
     }
 
